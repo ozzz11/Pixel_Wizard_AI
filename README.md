@@ -1,1 +1,1 @@
-Best Windows t2i desktop app ever   
+Best Windows t2i desktop app ever      
