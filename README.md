@@ -1,1 +1,1 @@
-Windows t2i app  
+Windows t2i desktop app    
