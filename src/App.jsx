@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { ThemeProvider } from 'next-themes'
-import FinalLandingPage from './components/FinalLandingPage'
+import EnhancedLandingPage from './components/EnhancedLandingPage'
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <Router>
         <div className="min-h-screen">
           <Routes>
-            <Route path="/" element={<FinalLandingPage />} />
+            <Route path="/" element={<EnhancedLandingPage />} />
           </Routes>
         </div>
       </Router>
