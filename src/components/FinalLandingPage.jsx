@@ -563,24 +563,6 @@ const FinalLandingPage = () => {
             </div>
           </motion.div>
         </div>
-
-        <div className="text-center mt-8">
-          <p className="text-lg text-gray-300 mb-4">{t.guarantee}</p>
-          
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="bg-amber-900/20 border border-amber-700/50 rounded-lg p-4 max-w-4xl mx-auto"
-          >
-            <div className="flex items-start gap-3">
-              <AlertTriangle className="w-6 h-6 text-amber-400 flex-shrink-0 mt-1" />
-              <p className="text-amber-200 text-sm leading-relaxed">
-                {t.warning}
-              </p>
-            </div>
-          </motion.div>
-        </div>
       </section>
 
       {/* Footer */}
